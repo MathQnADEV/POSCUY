@@ -1,6 +1,5 @@
 import 'dart:convert';
 
-import 'package:flutter_pos_app/core/extensions/int_ext.dart';
 
 import '../../home/models/order_item.dart';
 
@@ -50,6 +49,7 @@ class OrderModel {
 
   Map<String, dynamic> toMapForLocal() {
     return {
+      
       'payment_method': paymentMethod,
       'total_item': totalQuantity,
       'nominal': totalPrice,

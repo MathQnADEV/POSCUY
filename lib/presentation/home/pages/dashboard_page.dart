@@ -1,15 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_pos_app/core/assets/assets.gen.dart';
-import 'package:flutter_pos_app/core/constants/colors.dart';
-import 'package:flutter_pos_app/data/datasources/auth_local_datasource.dart';
-import 'package:flutter_pos_app/presentation/auth/pages/login_page.dart';
-import 'package:flutter_pos_app/presentation/history/pages/history_page.dart';
-import 'package:flutter_pos_app/presentation/home/bloc/logout/logout_bloc.dart';
-import 'package:flutter_pos_app/presentation/home/pages/home_page.dart';
-import 'package:flutter_pos_app/presentation/home/widgets/nav_item.dart';
-import 'package:flutter_pos_app/presentation/order/pages/order_page.dart';
-import 'package:flutter_pos_app/presentation/setting/pages/setting_page.dart';
+import 'package:poscuy/core/assets/assets.gen.dart';
+import 'package:poscuy/core/constants/colors.dart';
+import 'package:poscuy/presentation/history/pages/history_page.dart';
+import 'package:poscuy/presentation/home/pages/home_page.dart';
+import 'package:poscuy/presentation/home/widgets/nav_item.dart';
+import 'package:poscuy/presentation/order/pages/order_page.dart';
+import 'package:poscuy/presentation/setting/pages/setting_page.dart';
 
 class DashboardPage extends StatefulWidget {
   const DashboardPage({super.key});

@@ -1,5 +1,5 @@
-import 'package:flutter_pos_app/data/models/response/product_response_model.dart';
-import 'package:flutter_pos_app/presentation/order/models/order_model.dart';
+import 'package:poscuy/data/models/response/product_response_model.dart';
+import 'package:poscuy/presentation/order/models/order_model.dart';
 import 'package:sqflite/sqflite.dart';
 
 import '../../presentation/home/models/order_item.dart';
@@ -70,6 +70,10 @@ class ProductLocalDatasource {
     int id = await db.insert('orders', order.toMapForLocal());
     for (var orderItem in order.orders) {
       await db.insert('order_items', orderItem.toMapForLocal(id));
+      await db.rawUpdate(
+        'UPDATE $tableProducts SET stock = stock - ? WHERE product_id = ?',
+        [orderItem.quantity, orderItem.product.productId],
+      );
     }
     return id;
   }
@@ -89,6 +93,7 @@ class ProductLocalDatasource {
 
     return result.map((e) => OrderItem.fromMapLocal(e)).toList();
   }
+  
 
   //update isSync order by id
   Future<int> updateIsSyncOrderById(int id) async {

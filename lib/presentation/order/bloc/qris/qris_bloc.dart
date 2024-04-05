@@ -1,7 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-
-import 'package:flutter_pos_app/data/datasources/midtrans_remote_datasource.dart';
+import 'package:poscuy/data/datasources/midtrans_remote_datasource.dart';
 
 import '../../../../data/models/response/qris_response_model.dart';
 import '../../../../data/models/response/qris_status_response_model.dart';

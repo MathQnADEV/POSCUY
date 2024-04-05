@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_pos_app/core/extensions/int_ext.dart';
-import 'package:flutter_pos_app/presentation/home/bloc/checkout/checkout_bloc.dart';
+import 'package:poscuy/core/extensions/int_ext.dart';
+import 'package:poscuy/presentation/home/bloc/checkout/checkout_bloc.dart';
 
 import '../../../core/components/spaces.dart';
 import '../../../core/constants/colors.dart';

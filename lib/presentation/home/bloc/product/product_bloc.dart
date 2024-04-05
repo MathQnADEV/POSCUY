@@ -1,12 +1,11 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:bloc/bloc.dart';
-import 'package:flutter_pos_app/data/datasources/product_local_datasource.dart';
-import 'package:flutter_pos_app/data/models/request/product_request_model.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-
-import 'package:flutter_pos_app/data/datasources/product_remote_datasource.dart';
-import 'package:flutter_pos_app/data/models/response/product_response_model.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:poscuy/data/datasources/product_local_datasource.dart';
+import 'package:poscuy/data/datasources/product_remote_datasource.dart';
+import 'package:poscuy/data/models/request/product_request_model.dart';
+import 'package:poscuy/data/models/response/product_response_model.dart';
 
 part 'product_bloc.freezed.dart';
 part 'product_event.dart';

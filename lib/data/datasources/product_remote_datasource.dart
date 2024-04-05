@@ -1,10 +1,10 @@
 import 'package:dartz/dartz.dart';
-import 'package:flutter_pos_app/core/constants/variables.dart';
-import 'package:flutter_pos_app/data/models/request/product_request_model.dart';
-import 'package:flutter_pos_app/data/models/response/add_product_response_model.dart';
 import 'package:http/http.dart' as http;
-import 'package:flutter_pos_app/data/datasources/auth_local_datasource.dart';
-import 'package:flutter_pos_app/data/models/response/product_response_model.dart';
+import 'package:poscuy/core/constants/variables.dart';
+import 'package:poscuy/data/datasources/auth_local_datasource.dart';
+import 'package:poscuy/data/models/request/product_request_model.dart';
+import 'package:poscuy/data/models/response/add_product_response_model.dart';
+import 'package:poscuy/data/models/response/product_response_model.dart';
 
 class ProductRemoteDatasource {
   Future<Either<String, ProductResponseModel>> getProducts() async {

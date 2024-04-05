@@ -2,11 +2,10 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
-import 'package:flutter_pos_app/core/extensions/build_context_ext.dart';
-import 'package:flutter_pos_app/presentation/order/bloc/qris/qris_bloc.dart';
-import 'package:flutter_pos_app/presentation/order/widgets/payment_success_dialog.dart';
 import 'package:intl/intl.dart';
+import 'package:poscuy/core/extensions/build_context_ext.dart';
+import 'package:poscuy/presentation/order/bloc/qris/qris_bloc.dart';
+import 'package:poscuy/presentation/order/widgets/payment_success_dialog.dart';
 
 import '../../../core/components/spaces.dart';
 import '../../../core/constants/colors.dart';

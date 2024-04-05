@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_pos_app/core/extensions/int_ext.dart';
-import 'package:flutter_pos_app/presentation/order/models/order_model.dart';
+import 'package:poscuy/core/extensions/int_ext.dart';
+import 'package:poscuy/presentation/order/models/order_model.dart';
 
 import '../../../core/assets/assets.gen.dart';
 import '../../../core/constants/colors.dart';

@@ -1,14 +1,16 @@
+// ignore_for_file: unused_field, prefer_final_fields, avoid_print
+
 import 'package:esc_pos_utils_plus/esc_pos_utils_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_pos_app/core/extensions/build_context_ext.dart';
+import 'package:poscuy/core/extensions/build_context_ext.dart';
+
 import 'package:print_bluetooth_thermal/print_bluetooth_thermal.dart';
 
 
 
 import '../../../core/components/spaces.dart';
 import '../../../core/constants/colors.dart';
-import '../models/printer_model.dart';
 import '../widgets/menu_printer_button.dart';
 import '../widgets/menu_printer_content.dart';
 

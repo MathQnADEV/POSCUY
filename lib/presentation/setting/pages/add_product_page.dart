@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_pos_app/core/components/buttons.dart';
-import 'package:flutter_pos_app/core/components/custom_dropdown.dart';
-import 'package:flutter_pos_app/core/components/custom_text_field.dart';
-import 'package:flutter_pos_app/core/components/image_picker_widget.dart';
-import 'package:flutter_pos_app/core/components/spaces.dart';
-import 'package:flutter_pos_app/core/extensions/string_ext.dart';
-import 'package:flutter_pos_app/data/models/response/product_response_model.dart';
-import 'package:flutter_pos_app/presentation/home/bloc/product/product_bloc.dart';
-import 'package:flutter_pos_app/presentation/setting/models/category_model.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:poscuy/core/components/buttons.dart';
+import 'package:poscuy/core/components/custom_dropdown.dart';
+import 'package:poscuy/core/components/custom_text_field.dart';
+import 'package:poscuy/core/components/image_picker_widget.dart';
+import 'package:poscuy/core/components/spaces.dart';
+import 'package:poscuy/core/extensions/string_ext.dart';
+import 'package:poscuy/data/models/response/product_response_model.dart';
+import 'package:poscuy/presentation/home/bloc/product/product_bloc.dart';
+import 'package:poscuy/presentation/setting/models/category_model.dart';
 
 class AddProductPage extends StatefulWidget {
   const AddProductPage({super.key});

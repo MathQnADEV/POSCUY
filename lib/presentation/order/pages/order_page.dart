@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_pos_app/presentation/home/bloc/checkout/checkout_bloc.dart';
-import 'package:flutter_pos_app/presentation/home/models/order_item.dart';
-import 'package:flutter_pos_app/presentation/order/bloc/order/order_bloc.dart';
-import 'package:flutter_pos_app/presentation/order/widgets/payment_qris_dialog.dart';
+import 'package:poscuy/presentation/home/bloc/checkout/checkout_bloc.dart';
+import 'package:poscuy/presentation/home/models/order_item.dart';
+import 'package:poscuy/presentation/order/bloc/order/order_bloc.dart';
+import 'package:poscuy/presentation/order/widgets/payment_qris_dialog.dart';
 
 import '../../../core/assets/assets.gen.dart';
 import '../../../core/components/menu_button.dart';

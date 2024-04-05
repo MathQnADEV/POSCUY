@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_pos_app/core/extensions/build_context_ext.dart';
-import 'package:flutter_pos_app/core/extensions/int_ext.dart';
-import 'package:flutter_pos_app/core/extensions/string_ext.dart';
-import 'package:flutter_pos_app/data/datasources/product_local_datasource.dart';
-import 'package:flutter_pos_app/presentation/order/bloc/order/order_bloc.dart';
-import 'package:flutter_pos_app/presentation/order/models/order_model.dart';
-import 'package:flutter_pos_app/presentation/order/widgets/payment_success_dialog.dart';
+import 'package:poscuy/core/extensions/build_context_ext.dart';
+import 'package:poscuy/core/extensions/int_ext.dart';
+import 'package:poscuy/core/extensions/string_ext.dart';
+import 'package:poscuy/data/datasources/product_local_datasource.dart';
+import 'package:poscuy/presentation/order/bloc/order/order_bloc.dart';
+import 'package:poscuy/presentation/order/models/order_model.dart';
+import 'package:poscuy/presentation/order/widgets/payment_success_dialog.dart';
 
 import '../../../core/components/buttons.dart';
 import '../../../core/components/custom_text_field.dart';

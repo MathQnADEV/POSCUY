@@ -1,11 +1,8 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_pos_app/core/components/spaces.dart';
-import 'package:flutter_pos_app/data/datasources/auth_local_datasource.dart';
-import 'package:flutter_pos_app/presentation/home/bloc/product/product_bloc.dart';
-import 'package:flutter_pos_app/presentation/order/bloc/order/order_bloc.dart';
-import 'package:flutter_pos_app/presentation/setting/bloc/sync_order/sync_order_bloc.dart';
+import 'package:poscuy/core/components/spaces.dart';
+import 'package:poscuy/presentation/home/bloc/product/product_bloc.dart';
+import 'package:poscuy/presentation/setting/bloc/sync_order/sync_order_bloc.dart';
 
 import '../../../core/constants/colors.dart';
 import '../../../data/datasources/product_local_datasource.dart';
@@ -43,6 +40,7 @@ class _SyncDataPageState extends State<SyncDataPage> {
                   await ProductLocalDatasource.instance.removeAllProduct();
                   await ProductLocalDatasource.instance
                       .insertAllProduct(_.products.toList());
+                  // ignore: use_build_context_synchronously
                   ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
                       backgroundColor: AppColors.primary,
                       content: Text(

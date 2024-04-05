@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_pos_app/core/assets/assets.gen.dart';
-import 'package:flutter_pos_app/data/datasources/auth_local_datasource.dart';
-import 'package:flutter_pos_app/presentation/auth/bloc/login/login_bloc.dart';
+import 'package:poscuy/core/assets/assets.gen.dart';
+import 'package:poscuy/data/datasources/auth_local_datasource.dart';
+import 'package:poscuy/presentation/auth/bloc/login/login_bloc.dart';
 
 import '../../../core/components/buttons.dart';
 import '../../../core/components/custom_text_field.dart';

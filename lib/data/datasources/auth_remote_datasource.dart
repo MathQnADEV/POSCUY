@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
-import 'package:flutter_pos_app/core/constants/variables.dart';
-import 'package:flutter_pos_app/data/datasources/auth_local_datasource.dart';
-import 'package:flutter_pos_app/data/models/response/auth_response_model.dart';
 import 'package:http/http.dart' as http;
+import 'package:poscuy/core/constants/variables.dart';
+import 'package:poscuy/data/datasources/auth_local_datasource.dart';
+import 'package:poscuy/data/models/response/auth_response_model.dart';
 
 class AuthRemoteDatasource {
   Future<Either<String, AuthResponseModel>> login(

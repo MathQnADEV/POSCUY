@@ -1,10 +1,10 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_pos_app/core/constants/variables.dart';
-import 'package:flutter_pos_app/core/extensions/int_ext.dart';
-import 'package:flutter_pos_app/presentation/home/bloc/checkout/checkout_bloc.dart';
-import 'package:flutter_pos_app/presentation/home/models/order_item.dart';
+import 'package:poscuy/core/constants/variables.dart';
+import 'package:poscuy/core/extensions/int_ext.dart';
+import 'package:poscuy/presentation/home/bloc/checkout/checkout_bloc.dart';
+import 'package:poscuy/presentation/home/models/order_item.dart';
 
 import '../../../core/components/spaces.dart';
 import '../../../core/constants/colors.dart';

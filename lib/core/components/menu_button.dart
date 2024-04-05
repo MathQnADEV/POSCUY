@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_pos_app/core/components/spaces.dart';
-import 'package:flutter_pos_app/core/extensions/build_context_ext.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:poscuy/core/components/spaces.dart';
+import 'package:poscuy/core/extensions/build_context_ext.dart';
 
 
 import '../constants/colors.dart';

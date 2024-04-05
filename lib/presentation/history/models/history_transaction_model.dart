@@ -1,4 +1,6 @@
-import 'package:flutter_pos_app/core/extensions/int_ext.dart';
+
+
+import 'package:poscuy/core/extensions/int_ext.dart';
 
 class HistoryTransactionModel {
   final String name;

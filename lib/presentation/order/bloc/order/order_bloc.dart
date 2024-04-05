@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
-import 'package:flutter_pos_app/data/datasources/auth_local_datasource.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
+import 'package:poscuy/data/datasources/auth_local_datasource.dart';
 
 import '../../../home/models/order_item.dart';
 

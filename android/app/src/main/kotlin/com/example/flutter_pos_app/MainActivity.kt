@@ -1,4 +1,4 @@
-package com.example.flutter_pos_app
+package com.example.POSCUY
 
 import io.flutter.embedding.android.FlutterActivity
 

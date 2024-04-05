@@ -1,6 +1,6 @@
-import 'package:flutter_pos_app/core/constants/variables.dart';
-import 'package:flutter_pos_app/data/models/request/order_request_model.dart';
 import 'package:http/http.dart' as http;
+import 'package:poscuy/core/constants/variables.dart';
+import 'package:poscuy/data/models/request/order_request_model.dart';
 
 import 'auth_local_datasource.dart';
 

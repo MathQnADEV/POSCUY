@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_pos_app/core/assets/assets.gen.dart';
-import 'package:flutter_pos_app/core/components/spaces.dart';
-import 'package:flutter_pos_app/presentation/home/bloc/product/product_bloc.dart';
-import 'package:flutter_pos_app/presentation/home/models/product_category.dart';
-import 'package:flutter_pos_app/presentation/home/models/product_model.dart';
-import 'package:flutter_pos_app/presentation/setting/pages/add_product_page.dart';
-import 'package:flutter_pos_app/presentation/setting/widgets/menu_product_item.dart';
+import 'package:poscuy/core/assets/assets.gen.dart';
+import 'package:poscuy/core/components/spaces.dart';
+import 'package:poscuy/presentation/home/bloc/product/product_bloc.dart';
+import 'package:poscuy/presentation/home/models/product_category.dart';
+import 'package:poscuy/presentation/home/models/product_model.dart';
+import 'package:poscuy/presentation/setting/pages/add_product_page.dart';
+import 'package:poscuy/presentation/setting/widgets/menu_product_item.dart';
 
 class ManageProductPage extends StatefulWidget {
   const ManageProductPage({super.key});
@@ -16,36 +16,36 @@ class ManageProductPage extends StatefulWidget {
 }
 
 class _ManageProductPageState extends State<ManageProductPage> {
-  final List<ProductModel> products = [
-    ProductModel(
-      image: Assets.images.f1.path,
-      name: 'Vanila Late Vanila itu',
-      category: ProductCategory.drink,
-      price: 200000,
-      stock: 10,
-    ),
-    ProductModel(
-      image: Assets.images.f2.path,
-      name: 'V60',
-      category: ProductCategory.drink,
-      price: 1200000,
-      stock: 10,
-    ),
-    ProductModel(
-      image: Assets.images.f3.path,
-      name: 'Americano',
-      category: ProductCategory.drink,
-      price: 2100000,
-      stock: 10,
-    ),
-    ProductModel(
-      image: Assets.images.f4.path,
-      name: 'Cappucino',
-      category: ProductCategory.food,
-      price: 200000,
-      stock: 10,
-    ),
-  ];
+  // final List<ProductModel> products = [
+  //   ProductModel(
+  //     image: Assets.images.f1.path,
+  //     name: 'Vanila Late Vanila itu',
+  //     category: ProductCategory.drink,
+  //     price: 200000,
+  //     stock: 10,
+  //   ),
+  //   ProductModel(
+  //     image: Assets.images.f2.path,
+  //     name: 'V60',
+  //     category: ProductCategory.drink,
+  //     price: 1200000,
+  //     stock: 10,
+  //   ),
+  //   ProductModel(
+  //     image: Assets.images.f3.path,
+  //     name: 'Americano',
+  //     category: ProductCategory.drink,
+  //     price: 2100000,
+  //     stock: 10,
+  //   ),
+  //   ProductModel(
+  //     image: Assets.images.f4.path,
+  //     name: 'Cappucino',
+  //     category: ProductCategory.food,
+  //     price: 200000,
+  //     stock: 10,
+  //   ),
+  // ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_pos_app/core/assets/assets.gen.dart';
-import 'package:flutter_pos_app/core/components/menu_button.dart';
-import 'package:flutter_pos_app/core/components/search_input.dart';
-import 'package:flutter_pos_app/core/components/spaces.dart';
-import 'package:flutter_pos_app/presentation/home/bloc/product/product_bloc.dart';
-import 'package:flutter_pos_app/presentation/home/widgets/product_card.dart';
-import 'package:flutter_pos_app/presentation/home/widgets/product_empty.dart';
+import 'package:poscuy/core/assets/assets.gen.dart';
+import 'package:poscuy/core/components/menu_button.dart';
+import 'package:poscuy/core/components/search_input.dart';
+import 'package:poscuy/core/components/spaces.dart';
+import 'package:poscuy/presentation/home/bloc/product/product_bloc.dart';
+import 'package:poscuy/presentation/home/widgets/product_card.dart';
+import 'package:poscuy/presentation/home/widgets/product_empty.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

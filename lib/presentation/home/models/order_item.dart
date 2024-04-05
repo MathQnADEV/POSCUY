@@ -1,7 +1,8 @@
 import 'dart:convert';
 
-import 'package:flutter_pos_app/data/models/request/order_request_model.dart';
-import 'package:flutter_pos_app/data/models/response/product_response_model.dart';
+import 'package:poscuy/data/models/request/order_request_model.dart';
+import 'package:poscuy/data/models/response/product_response_model.dart';
+
 
 class OrderItem {
   final Product product;

@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_pos_app/data/models/response/product_response_model.dart';
+import 'package:poscuy/data/models/response/product_response_model.dart';
 
 import '../../../core/components/buttons.dart';
 import '../../../core/components/spaces.dart';
@@ -144,17 +144,17 @@ class MenuProductItem extends StatelessWidget {
                         height: 31,
                       ),
                     ),
-                    const SpaceWidth(6.0),
-                    Flexible(
-                      child: Button.outlined(
-                        onPressed: () {
-                          // context.push(EditProductPage(data: data));
-                        },
-                        label: 'Ubah Produk',
-                        fontSize: 8.0,
-                        height: 31,
-                      ),
-                    ),
+                    // const SpaceWidth(6.0),
+                    // Flexible(
+                    //   child: Button.outlined(
+                    //     onPressed: () {
+                    //       // context.push(EditProductPage(data: data));
+                    //     },
+                    //     label: 'Ubah Produk',
+                    //     fontSize: 8.0,
+                    //     height: 31,
+                    //   ),
+                    // ),
                   ],
                 ),
               ],

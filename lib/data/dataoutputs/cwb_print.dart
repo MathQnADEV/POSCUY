@@ -1,6 +1,6 @@
 import 'package:esc_pos_utils_plus/esc_pos_utils_plus.dart';
-import 'package:flutter_pos_app/core/extensions/int_ext.dart';
 import 'package:intl/intl.dart';
+import 'package:poscuy/core/extensions/int_ext.dart';
 
 import '../../presentation/home/models/order_item.dart';
 

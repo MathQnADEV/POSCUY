@@ -1,6 +1,6 @@
-import 'package:flutter_pos_app/data/models/response/product_response_model.dart';
-import 'package:meta/meta.dart';
 import 'dart:convert';
+
+import 'package:poscuy/data/models/response/product_response_model.dart';
 
 class AddProductResponseModel {
   final bool success;

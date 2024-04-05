@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_pos_app/core/extensions/build_context_ext.dart';
-import 'package:flutter_pos_app/core/extensions/date_time_ext.dart';
-import 'package:flutter_pos_app/core/extensions/int_ext.dart';
-import 'package:flutter_pos_app/data/dataoutputs/cwb_print.dart';
-import 'package:flutter_pos_app/presentation/home/bloc/checkout/checkout_bloc.dart';
-import 'package:flutter_pos_app/presentation/home/pages/dashboard_page.dart';
-import 'package:flutter_pos_app/presentation/order/bloc/order/order_bloc.dart';
+import 'package:poscuy/core/extensions/build_context_ext.dart';
+import 'package:poscuy/core/extensions/date_time_ext.dart';
+import 'package:poscuy/core/extensions/int_ext.dart';
+import 'package:poscuy/data/dataoutputs/cwb_print.dart';
+import 'package:poscuy/presentation/home/bloc/checkout/checkout_bloc.dart';
+import 'package:poscuy/presentation/home/pages/dashboard_page.dart';
+import 'package:poscuy/presentation/order/bloc/order/order_bloc.dart';
 import 'package:print_bluetooth_thermal/print_bluetooth_thermal.dart';
 
 import '../../../core/assets/assets.gen.dart';

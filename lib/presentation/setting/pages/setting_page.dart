@@ -1,15 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_pos_app/core/constants/colors.dart';
-import 'package:flutter_pos_app/core/extensions/build_context_ext.dart';
-import 'package:flutter_pos_app/data/datasources/auth_local_datasource.dart';
-import 'package:flutter_pos_app/data/datasources/product_local_datasource.dart';
-import 'package:flutter_pos_app/presentation/auth/pages/login_page.dart';
-import 'package:flutter_pos_app/presentation/home/bloc/product/product_bloc.dart';
-import 'package:flutter_pos_app/presentation/order/models/order_model.dart';
-import 'package:flutter_pos_app/presentation/setting/pages/manage_printer_page.dart';
-import 'package:flutter_pos_app/presentation/setting/pages/save_server_key_page.dart';
-import 'package:flutter_pos_app/presentation/setting/pages/sync_data_page.dart';
+import 'package:poscuy/core/extensions/build_context_ext.dart';
+import 'package:poscuy/data/datasources/auth_local_datasource.dart';
+import 'package:poscuy/presentation/auth/pages/login_page.dart';
+import 'package:poscuy/presentation/setting/pages/manage_printer_page.dart';
+import 'package:poscuy/presentation/setting/pages/save_server_key_page.dart';
+import 'package:poscuy/presentation/setting/pages/sync_data_page.dart';
 
 import '../../../core/assets/assets.gen.dart';
 import '../../../core/components/menu_button.dart';

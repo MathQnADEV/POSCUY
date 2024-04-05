@@ -1,9 +1,8 @@
 import 'dart:convert';
-
-import 'package:flutter_pos_app/data/datasources/auth_local_datasource.dart';
-import 'package:flutter_pos_app/data/models/response/qris_response_model.dart';
-import 'package:flutter_pos_app/data/models/response/qris_status_response_model.dart';
 import 'package:http/http.dart' as http;
+import 'package:poscuy/data/datasources/auth_local_datasource.dart';
+import 'package:poscuy/data/models/response/qris_response_model.dart';
+import 'package:poscuy/data/models/response/qris_status_response_model.dart';
 
 class MidtransRemoteDatasource {
   String generateBasicAuthHeader(String serverKey) {
